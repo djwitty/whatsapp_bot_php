@@ -7,24 +7,24 @@ class api_messenger {
 
     function lg() {
         return
-                array(
-                    'ru' => array(
-                        'Город: {CITY}',
-                        'Тек. темп.: {CURRENT} C°',
-                        'Прогноз на {DATE}:',
-                        '{1}C° — {2}C°',
-                        'Бот предоставлен https://api-messenger.com',
-                        'Город не найден. Возможно Вы допустили ошибку при наборе.'
-                    ),
-                    'en' => array(
-                        'City: {CITY}',
-                        'Current temperature: {CURRENT} C°',
-                        'Forecast for {DATE}:',
-                        '{1}C° — {2}C°',
-                        'Bot by https://api-messenger.com',
-                        'City not found. Perhaps you made a mistake while typing.'
-                    )
-        );
+            array(
+                'ru' => array(
+                    'Город: {CITY}',
+                    'Тек. темп.: {CURRENT} C°',
+                    'Прогноз на {DATE}:',
+                    '{1}C° — {2}C°',
+                    'Бот предоставлен https://api-messenger.com',
+                    'Город не найден. Возможно Вы допустили ошибку при наборе.'
+                ),
+                'en' => array(
+                    'City: {CITY}',
+                    'Current temperature: {CURRENT} C°',
+                    'Forecast for {DATE}:',
+                    '{1}C° — {2}C°',
+                    'Bot by https://api-messenger.com',
+                    'City not found. Perhaps you made a mistake while typing.'
+                )
+            );
     }
 
     function get_lang($p) {
